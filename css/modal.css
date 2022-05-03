@@ -1,0 +1,89 @@
+.modal-body input{
+    background: #FFFFFF;
+    width: -moz-available;
+    border: 1px solid rgba(6, 18, 36, 0.9);
+    box-sizing: border-box;
+    border-radius: 48px ;
+}
+.modal-body label{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;    
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    
+    color: rgba(6, 18, 36, 0.9);
+    
+    mix-blend-mode: normal;
+}
+
+.modal-dialog{
+    width: 551px;
+    height: 545px;
+}
+.modal-content{
+    background-color: #DEEEFC;
+    align-items: center;
+}
+.modal-header h5{
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 48px;    
+    text-align: center;    
+    color: #061224;
+}
+.form-control{
+    width: 50%;
+    
+}
+.btn-close{
+    margin-left: 50px !important;
+}
+.modal-footer input{
+    width: 150px;
+    border-radius: 14px;
+    padding: 10px;
+    text-align: center !important;
+}
+.modal-footer button {
+    width: 150px;
+    border-radius: 14px;
+    padding: 10px;
+    text-align: center !important;
+  }
+/* .modal-dialog{
+    width: 400px;
+} */
+@media screen and (min-width: 1492px) {
+  
+}
+@media screen and (min-width:800px) and (max-width: 1000px) {
+    
+}
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 580px) {
+    .modal-dialog{
+        width: auto;
+        height: 454px;
+    }
+    .modal-header h5{
+        font-size: 20px;
+        line-height: 48px;
+    }
+    .modal-body label{
+        font-size: 14px;
+        line-height: 128%;
+    }
+    .ml{
+        margin-left: 0px;
+    }
+  
+}

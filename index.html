@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signy</title>
+    <!-- add icon link -->
+    <link rel="icon" href="./images/Group 4.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/header.css" type="text/css" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link rel="stylesheet" href="./css/modal.css" type="text/css" />
+    <link rel="stylesheet" href="./css/footer.css" type="text/css" />
+</head>
+
+<body>
+    <!-- ----------------------------navbar start------------------------------ -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid header-menu">
+                <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse nav-ml nav-mr" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-menu">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            0 800 750 643
+                        </a>
+                        <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">+380 44 334 56 43</a></li>
+                            <li><a class="dropdown-item" href="#">+380 44 338 86 43</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Information
+                        </a>
+                        <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="./video.html">Video</a></li>
+                            <li><a class="dropdown-item" href="./faq.html">Questions</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link sgn-w" href="./about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="">
+                            <button type="button" class="btn btn-outline-primary btn-radius sgn-w">Sign in</button>
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Vertically centered modal -->
+                        <button type="button" class="btn btn-primary btn-radius" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Registration</button>
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header border-bottom-0">
+                                        <h5 class="modal-title" id="exampleModalLabel">Demo version</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Fill out the form and let our managers contact you</p>
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Name*:</label>
+                                                <input type="text" class="form-control" id="recipient-name"
+                                                    placeholder="Иван">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="recipient-email" class="col-form-label">Email*:</label>
+                                                <input type="email" class="form-control" id="recipient-email"
+                                                    placeholder="ivan@mail.com">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="message-tel" class="col-form-label">Phone*:</label>
+                                                <input type="tel" class="form-control" id="message-tel"
+                                                    placeholder="+38 000 000 00 00">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer border-top-0">
+                                        <form action="">
+                                            <input type="submit" value="Send" class="btn btn-primary"></input>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Eng
+                        </a>
+                        <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Rus</a></li>
+                            <li><a class="dropdown-item" href="#">Eng</a></li>
+                            <li><a class="dropdown-item" href="#">Aze</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <!-- -------------------------- navbar end --------------------- ------------------------>
+    <!-- -----------------carousel start----------------------------- -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/carousel1.jpg" class="d-block w-100" alt="carousel image">
+                <div class="carousel-caption">
+
+                    <h1 class="c-mgt">Digital document management in three stages:</h1>
+                    <h3 class="c-mgt"><span class="sp1">1</span> - 2 - 3</h3>
+                    <h4 class="c-mgt">Quick registration</h4>
+                    <p class="c-mgt">We have created perhaps the simplest registration. Register and get full access to
+                        the service and
+                        1000 document signatures as a gift!
+                    </p>
+                    <button type="button" class="frm-btn btn-primary btn-radius c-mgt">Try Free</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/carousel2.png" class="d-block w-100" alt="carousel image">
+                <div class="carousel-caption">
+
+                    <h1 class="c-mgt">Digital workflow in three steps:</h1>
+                    <h3 class="c-mgt">1 - <span class="sp2">2</span> - 3</h3>
+                    <h4 class="c-mgt">Quick registration</h4>
+                    <p class="c-mgt">We have created perhaps the simplest registration. Register and get full access to
+                        the service and
+                        1000 document signatures as a gift!</p>
+                    <button type="button" class="frm-btn btn-primary btn-radius c-mgt">Try Free</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/carousel3.png" class="d-block w-100" alt="carousel image">
+                <div class="carousel-caption">
+
+                    <h1 class="c-mgt">Digital workflow in three steps:</h1>
+                    <h3 class="c-mgt">1 - 2 - <span class="sp3">3</span></h3>
+                    <h4 class="c-mgt">Quick registration</h4>
+                    <p class="c-mgt">We have created perhaps the simplest registration. Register and get full access to
+                        the service and
+                        1000 document signatures as a gift!</p>
+                    <button type="button" class="frm-btn btn-primary btn-radius c-mgt">Try Free</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> <!-- ------------------------------carousel end------------------------ -->
+    <!-- -------------------main part---------------------- -->
+    <div class="container-fluid text-black mgt mgb">
+        <div class="row aling-items-center justify-content-evenly">
+            <div class="card mb-3 border-0" style="max-width: 400px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./images/clock.png" class="img-fluid xxxx rounded-start" alt="speed">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Instantly</h5>
+                            <p class="card-text">No delays.
+                                1 second to sign</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 border-0" style="max-width: 400px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./images/Vector.png" class="img-fluid xxxx rounded-start" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Globally</h5>
+                            <p class="card-text">The service is available 24\7 from all devices</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 border-0" style="max-width: 400px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./images/case.png" class="img-fluid xxxx rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Economically</h5>
+                            <p class="card-text">30 times cheaper than mail and couriers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-100 bg-green">
+        <div class="container yyy mgt">
+            <div class="row text-black">
+                <div class="col-sm-6 h-50 mgt">
+                    <h1>Comfort at work</h1>
+                    <p>- Create documents according to your personal habitual templates. It's individual!</p>
+                    <p>- Customize the order of signing the document if you are several people. This is responsible!</p>
+                    <p>- Upload an XML file with your own ready-to-document template. It's convenient!</p>
+                    <p>- Work in a super simple and intuitive interface without complications. It's nice!</p>
+                    <button type="button" class="btn btn-outline-primary btn-radius">Learn more</button>
+                </div>
+                <div class="col-sm-6 mgt"><img class="img-fluid" src="./images/image 7.png" alt=""></div>
+                <div class="w-100 mgt mgb"></div>
+                <div class="col-sm-6 mgt mgb"><img class="w-100" src="./images/image 7.png" alt=""></div>
+                <div class="col-sm-6 h-50 mgt">
+                    <h1>Our product is:</h1>
+                    <p>- Web version without software installation</p>
+                    <p>- Ability to process incoming documents for free and unlimited</p>
+                    <p>- Easy integration with 1C and other services</p>
+                    <p>- Mobile ID login support</p>
+                    <button type="button" class="btn btn-primary btn-radius">Register</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <h1 class="text-center mgt">Digital signature packages</h1>
+        <div class="row justify-content-around mgt col m-160 gap-20">
+            <div class="card ml bg-blue col-md-3 col-sm-6" style="width: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Demo</h5>
+                    <p class="card-text">30 documents</p>
+                    <p class="card-text"><b>0</b><span> UAH / month</span></p>
+                    <a href="#" class="btn w-75 btn-primary">Register</a>
+                </div>
+            </div>
+            <div class="card ml bg-blue col-md-3 col-sm-6" style="width: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Business</h5>
+                    <p class="card-text">1000 documents</p>
+                    <p class="card-text"><b>1000</b><span> UAH / year</span></p>
+                    <a href="#" class="btn w-75 btn-primary">To order</a>
+                </div>
+            </div>
+            <div class="card ml bg-blue col-md-3 col-sm-6" style="width: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Pro</h5>
+                    <p class="card-text">10000 documents</p>
+                    <p class="card-text"><b>9000</b><span> UAH / year</span></p>
+                    <a href="#" class="btn w-75 left btn-primary">To order</a>
+                </div>
+            </div>
+            <div class="card ml bg-blue col-md-3 col-sm-6" style="width: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Individual</h5>
+                    <p class="card-text">Individual</p>
+                    <br>
+                    <p></p>
+                    <a href="#" class="btn w-75 btn-primary">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-number mgt w-100 bg-green">
+        <h1 class="">5 820 125 114 </h1>
+        <h4>signed documents</h4>
+        <p>Our company has been creating convenient solutions for businesses of any size for over 30 years. We are proud
+            of Signy as
+            safe and comfortable product
+        </p>
+    </div>
+    <!-- /***************slider-***************** -->
+    <!-- logo slider -->
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="./images/image 3.png" alt="image" />
+            </div>
+            <div class="slide">
+                <img src="./images/image 3 (1).png" alt="image" />
+            </div>
+            <div class="slide">
+                <img src="./images/image 4.png" alt="image" />
+            </div>
+            <div class="slide">
+                <img src="./images/image 6.png" alt="image" />
+            </div>
+            <div class="slide">
+                <img src="./images/image 3.png" alt="image" />
+            </div>
+            <div class="slide">
+                <img src="./images/image 3 (1).png" alt="image" />
+            </div>
+            <div class="slide">
+                <img src="./images/image 4.png" alt="image" />
+            </div>
+            <div class="slide">
+                <img src="./images/image 6.png" alt="image" />
+            </div>
+            <div class="slide">
+                <img src="./images/image 3.png" alt="image" />
+            </div>
+            <div class="slide">
+                <img src="./images/image 3 (1).png" alt="image" />
+            </div>
+            <div class="slide">
+                <img src="./images/image 4.png" alt="image" />
+            </div>
+            <div class="slide">
+                <img src="./images/image 6.png" alt="image" />
+            </div>
+        </div>
+    </div>
+    <!-- ************************slider end**************************************** -->
+    <div class="container-fluid bg-green">
+        <h1 class="text-center mgt">Interesting writing about</h1>
+        <div class="row justify-content-around mgt pd-0">
+            <div class="card ml bg-transparent writing border-0">
+                <img src="./images/Placeholder.png" class="card img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">28.05.2020</h5>
+                    <p class="card-text">Title short two lines</p>
+                </div>
+            </div>
+            <div class="card ml bg-transparent writing border-0">
+                <img src="./images/Placeholder (1).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">28.05.2020</h5>
+                    <p class="card-text">Title short two lines</p>
+                </div>
+            </div>
+            <div class="card ml bg-transparent writing border-0 small-screen-none">
+                <img src="./images/Placeholder.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">28.05.2020</h5>
+                    <p class="card-text">Title short two lines</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mgt">
+        <div class="video">
+            <h1>Let's meet live?</h1>
+            <img src="./images/Group 1278.png" class="mgt" alt="">
+        </div>
+    </div>
+    <!-- mutli according -->
+    <div class="container-fluid mgt" style="background-color: #DEEEFC;">
+        <h1 class="text-center mgt">Popular questions and answers</h1>
+    <section class="nav-wrap">
+        <!-- start accordion nav block -->
+        <nav class="acnav" role="navigation">
+            <!-- start level 1 -->
+            <ul class="acnav__list acnav__list--level1">   
+                <!-- start group 1 -->
+                <li class="has-children">
+                    <input id="group-1" class="acnav__checkbox" type="checkbox" hidden />
+                    <label class="acnav__label" for="group-1">Why is a round pizza put in a square box, but cut into triangles?</label>
+                    <!-- start level 2 -->
+                    <ul class="acnav__list acnav__list--level2">    
+                        <li class="has-children">
+                            <input id="group-1-1" class="acnav__checkbox" type="checkbox" hidden />
+                            <label class="acnav__label acnav__label--level2" for="group-1-1">Why does the road fail again after the repair?</label>
+                            <!-- start level 3 -->
+                            <ul class="acnav__list acnav__list--level3">
+                                <li>
+                                    <a class="acnav__link acnav__link--level3" href="#">- Потому что делают ее без соблюдения технологических процессов.</a>
+                                </li>
+                            </ul>
+                            <!-- end level 3 -->
+                        </li>
+                    </ul>
+                    <!-- end level 2 -->
+                </li>
+                <!-- end group 1 -->
+    
+                <!-- start group 2 -->
+                <li class="has-children">
+                    <input id="group-2" class="acnav__checkbox" type="checkbox" hidden />
+                    <label class="acnav__label" for="group-2">Why is the water wet?</label>
+                    <!-- start level 2 -->
+                    <ul class="acnav__list acnav__list--level2">
+                        <li>
+                            <a class="acnav__link acnav__link--level2" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, fugiat.</a>
+                        </li>
+                    </ul>
+                    <!-- end level 2 -->
+                </li>
+                <!-- end group 2 -->
+    
+                <!-- start group 3 -->
+                <li class="has-children">
+                    <input id="group-3" class="acnav__checkbox" type="checkbox" hidden />
+                    <label class="acnav__label" for="group-3">Can microbes see each other?</label>
+                    <!-- start level 2 -->
+                    <ul class="acnav__list acnav__list--level2">
+                        <li>
+                            <a class="acnav__link acnav__link--level2" href="#">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt!</a>
+                        </li>
+                        <!-- <li>
+                            <a class="acnav__link acnav__link--level2" href="#">Item (level 2)</a>
+                        </li> -->
+                    </ul>
+                    <!-- end level 2 -->
+                </li>
+                <!-- end group 3 -->
+                <!-- start group 4 -->
+                <li class="has-children">
+                    <input id="group-4" class="acnav__checkbox" type="checkbox" hidden />
+                    <label class="acnav__label" for="group-4">Why is blood red and veins blue?</label>
+                    <!-- start level 2 -->
+                    <ul class="acnav__list acnav__list--level2">
+                        <li>
+                            <a class="acnav__link acnav__link--level2" href="#">Lorem ipsum dolor sit, amet consectetur adipisicing.</a>
+                        </li>
+                        <!-- <li>
+                            <a class="acnav__link acnav__link--level2" href="#">Item (level 2)</a>
+                        </li> -->
+                    </ul>
+                    <!-- end level 2 -->
+                </li>
+                <!-- end group 4 -->
+                <!-- start group 5 -->
+                <li class="has-children">
+                    <input id="group-5" class="acnav__checkbox" type="checkbox" hidden />
+                    <label class="acnav__label" for="group-5">What is a rainbow made of?</label>
+                    <!-- start level 2 -->
+                    <ul class="acnav__list acnav__list--level2">    
+                        <li class="has-children">
+                            <input id="group-3-1" class="acnav__checkbox" type="checkbox" hidden />
+                            <label class="acnav__label acnav__label--level2" for="group-3-1">What is a rainbow made of?</label>
+                            <!-- start level 3 -->
+                            <ul class="acnav__list acnav__list--level3">
+                                <li>
+                                    <a class="acnav__link acnav__link--level3" href="#">What is a rainbow made of</a>
+                                </li>
+                            </ul> 
+                        </li> 
+                    </ul>              
+                    <!-- end level 2 -->
+                </li>
+                <!-- end group 5 -->
+    
+            </ul>
+            <!-- end level 1 -->
+        </nav>
+        <!-- end accordion nav block -->
+        
+    </section>
+    </div>
+    <!-- cd-accordion-menu -->
+    <div class="contact-number mgt w-100">
+        <h1 class="">Subscribe to our news!</h1>
+        <h6>Enter your email address and stay up to date with all updates</h6>
+        <p>
+        <form class="form" action="#">
+            <input type="email" placeholder="" name="mail">
+            <!-- Vertically centered modal -->
+            <button type="submit" class="btn btn-primary btn-radius" data-bs-toggle="modal"
+                data-bs-target="#exampleModal1" data-bs-whatever="@getbootstrap">Send</button>
+
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content bg-green">
+                        <div class="modal-header border-bottom-0">
+                            <h2 class="modal-title" id="exampleModalLabel">Fine!</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>The most important news will now be sent to example@maile.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        </p>
+    </div>
+   <!-- --------------------------footer--------------------------------------------------- -->
+   <footer class="text-lg-start text-md-start text-sm-start" style="background-color: #061224;">
+    <!-- Footer main -->
+    <div class="container p-4 pb-0">
+        <section class="">
+            <div class="row">
+        <div class="ft-main-item col-md-6 mb-4 col-lg-4 mb-md-0">
+            <h6><img src="./images/Group 7 (1).png" alt="image" /></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="#"></a></li><br>
+                <li><a href="#"></a></li><br>
+                <li><a href="#"></a></li><br>
+                <li><a href="#"></a></li><br>
+                <li class="text-font"><a href="./index.html">© 2020 Signy</a></li>
+
+            </ul>
+        </div>
+        <div class="ft-main-item col-md-6 col-lg-2 mb-4 mb-md-0">
+            <h6><a href="#" class="text-light">About us</a></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="./about.html" class="text-light">Prices</a></li>
+                <li><a href="#"></a></li><br>
+                <li><a href="#" class="text-light">Entrance</a></li>
+                <li><a href="#" class="text-light">Registration</a></li><br>
+                <li class="text-font"><a href="#">Offer agreement</a></li>
+            </ul>
+        </div>
+        <div class="ft-main-item col-md-6 col-lg-4 mb-4 mb-md-0">
+            <h6 class="d-block"><a href="#!" class="text-light">infosmartsign@smarttender.biz</a></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="#" class="text-light">Facebook</a></li>
+                <li><a href="#"></li><br>
+                <li><a href="./blog.html" class="text-light">Blog</a></li>
+                <li><a href="./contact.html" class="text-light">Contacts</a></li><br>
+                <li class="text-font"><a href="#">Security of service</a></li>
+            </ul>
+        </div>
+        <div class="ft-main-item col-md-6 col-lg-2 mb-4 mb-md-0">
+            <h6><a href="#" class="text-light">Mykola Bazhana Ave., 14 A</a></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="#" class="text-light">Kyiv, 02072</a></li>
+                <li><a href="#" class="text-light">0 800 750643</a></li>
+                <li><a href="#" class="text-light">+380 44 334 56 43</a></li>
+                <li><a href="#" class="text-light">+380 44 338 86 43</a></li>
+            </ul>
+        </div>
+        </div>
+    </section>
+    </div>
+</footer>
+<!-- end footer  -->
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

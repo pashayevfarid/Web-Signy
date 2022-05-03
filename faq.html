@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular questions</title>
+    <!-- add icon link -->
+    <link rel="icon" href="./images/Group 4.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/header.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/modal.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/faq.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/footer.css" type="text/css"/>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+</head>
+
+<body>
+
+    <!-- ----------------------------navbar start------------------------------ -->
+<header>
+    <nav class="navbar navbar-expand-lg w-100 navbar-light">
+        <div class="container-fluid m-39 mgl header-menu">
+            <a class="navbar-brand logo" href="./index.html"><img src="./images/logo.png" alt="logo"/></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse nav-ml nav-mr" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-menu">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        0 800 750 643
+                    </a>
+                    <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">+380 44 334 56 43</a></li>
+                        <li><a class="dropdown-item" href="#">+380 44 338 86 43</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Information
+                    </a>
+                    <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="./blog.html">Blog</a></li>
+                        <li><a class="dropdown-item" href="./video.html">Video</a></li>
+                        <li><a class="dropdown-item" href="./faq.html">Questions</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link sgn-w" href="./about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <form>
+                        <button type="button" class="btn btn-outline-primary btn-radius sgn-w">Sign in</button>
+                    </form>
+                </li>
+                <li class="nav-item">
+                    <!-- Vertically centered modal -->
+                    <button type="button" class="btn btn-primary btn-radius " data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Registration</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header border-bottom-0">
+                                    <h5 class="modal-title" id="exampleModalLabel">Demo version</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Fill out the form and our managers will contact you</p>
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Name*:</label>
+                                            <input type="text" class="form-control" id="recipient-name" placeholder="Иван">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="recipient-email" class="col-form-label">Email*:</label>
+                                            <input type="email" class="form-control" id="recipient-email" placeholder="ivan@mail.com">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message-tel" class="col-form-label">Phone*:</label>
+                                            <input type="tel"  class="form-control" id="message-tel" placeholder="+38 000 000 00 00">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer border-top-0">
+                                    <form action="">
+                                        <input type="submit" value="Send" class="btn btn-primary"></input>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Eng
+                    </a>
+                    <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Rus</a></li>
+                        <li><a class="dropdown-item" href="#">Eng</a></li>
+                        <li><a class="dropdown-item" href="#">Aze</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+</header>
+<!-- -------------------------- navbar end --------------------- ------------------------>
+<div class="container">
+    <div class="row">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.html">Signy</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Popular questions</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+    <div class="container mgl-50 info d-flex">
+        <h1>Popular questions and answers</h1>
+    </div>
+    <!---------------------------------** question part**-------------------------------------------- -->
+    <div class="accordion question-mgl border-0 accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Popular questions
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="container-fluid mgt">
+                <section class="nav-wrap">
+                    <!-- start accordion nav block -->
+                    <nav class="acnav" role="navigation">
+                        <!-- start level 1 -->
+                        <ul class="acnav__list acnav__list--level1">   
+                            <!-- start group 1 -->
+                            <li class="has-children">
+                                <input id="group-1" class="acnav__checkbox" type="checkbox" hidden />
+                                <label class="acnav__label" for="group-1">Why is a round pizza put in a square box, but cut into triangles?</label>
+                                <!-- start level 2 -->
+                                <ul class="acnav__list acnav__list--level2">    
+                                    <li class="has-children">
+                                        <input id="group-1-1" class="acnav__checkbox" type="checkbox" hidden />
+                                        <label class="acnav__label acnav__label--level2" for="group-1-1">Why does the road fail again after the repair?</label>
+                                        <!-- start level 3 -->
+                                        <ul class="acnav__list acnav__list--level3">
+                                            <li>
+                                                <a class="acnav__link acnav__link--level3" href="#">- Потому что делают ее без соблюдения технологических процессов.</a>
+                                            </li>
+                                        </ul>
+                                        <!-- end level 3 -->
+                                    </li>
+                                </ul>
+                                <!-- end level 2 -->
+                            </li>
+                            <!-- end group 1 -->
+                
+                            <!-- start group 2 -->
+                            <li class="has-children">
+                                <input id="group-2" class="acnav__checkbox" type="checkbox" hidden />
+                                <label class="acnav__label" for="group-2">Why is the water wet?</label>
+                                <!-- start level 2 -->
+                                <ul class="acnav__list acnav__list--level2">
+                                    <li>
+                                        <a class="acnav__link acnav__link--level2" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, fugiat.</a>
+                                    </li>
+                                </ul>
+                                <!-- end level 2 -->
+                            </li>
+                            <!-- end group 2 -->
+                
+                            <!-- start group 3 -->
+                            <li class="has-children">
+                                <input id="group-3" class="acnav__checkbox" type="checkbox" hidden />
+                                <label class="acnav__label" for="group-3">Can microbes see each other?</label>
+                                <!-- start level 2 -->
+                                <ul class="acnav__list acnav__list--level2">
+                                    <li>
+                                        <a class="acnav__link acnav__link--level2" href="#">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt!</a>
+                                    </li>
+                                    <!-- <li>
+                                        <a class="acnav__link acnav__link--level2" href="#">Item (level 2)</a>
+                                    </li> -->
+                                </ul>
+                                <!-- end level 2 -->
+                            </li>
+                            <!-- end group 3 -->
+                            <!-- start group 4 -->
+                            <li class="has-children">
+                                <input id="group-4" class="acnav__checkbox" type="checkbox" hidden />
+                                <label class="acnav__label" for="group-4">Why is blood red and veins blue?</label>
+                                <!-- start level 2 -->
+                                <ul class="acnav__list acnav__list--level2">
+                                    <li>
+                                        <a class="acnav__link acnav__link--level2" href="#">Lorem ipsum dolor sit, amet consectetur adipisicing.</a>
+                                    </li>
+                                    <!-- <li>
+                                        <a class="acnav__link acnav__link--level2" href="#">Item (level 2)</a>
+                                    </li> -->
+                                </ul>
+                                <!-- end level 2 -->
+                            </li>
+                            <!-- end group 4 -->
+                            <!-- start group 5 -->
+                            <li class="has-children">
+                                <input id="group-5" class="acnav__checkbox" type="checkbox" hidden />
+                                <label class="acnav__label" for="group-5">What is a rainbow made of?</label>
+                                <!-- start level 2 -->
+                                <ul class="acnav__list acnav__list--level2">    
+                                    <li class="has-children">
+                                        <input id="group-3-1" class="acnav__checkbox" type="checkbox" hidden />
+                                        <label class="acnav__label acnav__label--level2" for="group-3-1">What is a rainbow made of?</label>
+                                        <!-- start level 3 -->
+                                        <ul class="acnav__list acnav__list--level3">
+                                            <li>
+                                                <a class="acnav__link acnav__link--level3" href="#">What is a rainbow made of</a>
+                                            </li>
+                                        </ul> 
+                                    </li> 
+                                </ul>              
+                                <!-- end level 2 -->
+                            </li>
+                            <!-- end group 5 -->
+                
+                        </ul>
+                        <!-- end level 1 -->
+                    </nav>
+                    <!-- end accordion nav block -->
+                    
+                </section>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Setting up work in Signy
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Answers to questions 25</p>
+                </div>
+            </div>
+            <p class="mgl-30">Answers to questions 25</p>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Work with documents
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Answers to questions 15</p>
+                </div>
+                
+            </div>
+            <p class="mgl-30">Answers to questions 15</p>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Safety Information
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Answers to questions 17</p>
+                </div>
+            </div>
+            <p class="mgl-30">Answers to questions 17</p>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Technical questions
+                </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Answers to questions 16</p>
+                </div>
+            </div>
+            <p class="mgl-30">Answers to questions 16</p>
+        </div>
+        
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                    Integration
+                </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Answers to questions 15</p>
+                </div>
+            </div>
+            <p class="mgl-30">Answers to questions 15</p>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                    General issues
+                </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Answers to questions 57</p>
+                </div>
+            </div>
+        </div>
+        <p class="mgl-30">Answers to questions 57</p>
+    </div>
+
+    <!-- question part-->
+    <!-- form -->
+    <div class="container-fluid bg-green">
+        <div class="row text-center question-text">
+            <p>No answer to your question?</p>
+        </div>
+        <div class="row text-center text">
+            <p>Fill out the form and our managers will contact you</p>
+        </div>
+        <!-- --------------------------------- form--------------------------------- -->
+        <form class="mgl form2 form-center">
+            <div class="mb-3">
+                <label for="Name1" class="form-label">Имя*:</label>
+                <input type="text" class="form-control" placeholder="Иван" id="Name1">
+            </div>
+            <div class="mb-3">
+                <label for="Email1" class="form-label">Электронная почта*:</label>
+                <input type="email" class="form-control" placeholder="ivan@mail.com" id="Email1"
+                    aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="Phone1" class="form-label">Телефон*:</label>
+                <input type="text" class="form-control" placeholder="+38 000 000 00 00" id="Phone1">
+            </div>
+            <div class="mb-3">
+                <label for="Text1" class="form-label">Сообщение:</label><br>
+                <textarea class="d-flex" placeholder=" введите тут" cols="50" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-radius">Отправить</button>
+        </form>
+    </div>
+       <!-- --------------------------footer--------------------------------------------------- -->
+<footer class="text-lg-start text-md-start text-sm-start" style="background-color: #061224;">
+    <!-- Footer main -->
+    <div class="container p-4 pb-0">
+        <section class="">
+            <div class="row">
+        <div class="ft-main-item col-md-6 mb-4 col-lg-4 mb-md-0">
+            <h6><img src="./images/Group 7 (1).png" alt="image" /></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="#"></a></li><br>
+                <li><a href="#"></a></li><br>
+                <li><a href="#"></a></li><br>
+                <li><a href="#"></a></li><br>
+                <li class="text-font"><a href="./index.html">© 2020 Signy</a></li>
+
+            </ul>
+        </div>
+        <div class="ft-main-item col-md-6 col-lg-2 mb-4 mb-md-0">
+            <h6><a href="#" class="text-light">About us</a></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="./about.html" class="text-light">Prices</a></li>
+                <li><a href="#"></a></li><br>
+                <li><a href="#" class="text-light">Entrance</a></li>
+                <li><a href="#" class="text-light">Registration</a></li><br>
+                <li class="text-font"><a href="#">Offer agreement</a></li>
+            </ul>
+        </div>
+        <div class="ft-main-item col-md-6 col-lg-4 mb-4 mb-md-0">
+            <h6 class="d-block"><a href="#!" class="text-light">infosmartsign@smarttender.biz</a></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="#" class="text-light">Facebook</a></li>
+                <li><a href="#"></li><br>
+                <li><a href="./blog.html" class="text-light">Blog</a></li>
+                <li><a href="./contact.html" class="text-light">Contacts</a></li><br>
+                <li class="text-font"><a href="#">Security of service</a></li>
+            </ul>
+        </div>
+        <div class="ft-main-item col-md-6 col-lg-2 mb-4 mb-md-0">
+            <h6><a href="#" class="text-light">Mykola Bazhana Ave., 14 A</a></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="#" class="text-light">Kyiv, 02072</a></li>
+                <li><a href="#" class="text-light">0 800 750643</a></li>
+                <li><a href="#" class="text-light">+380 44 334 56 43</a></li>
+                <li><a href="#" class="text-light">+380 44 338 86 43</a></li>
+            </ul>
+        </div>
+        </div>
+    </section>
+    </div>
+</footer>
+<!-- end footer  -->
+    <script src="./js/main.js"></script>
+    <script src="./js/accordingfag.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+}
+.body{
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+}
+.card img{
+    filter: invert(0.25);
+
+}
+
+.image-mgl{
+    margin-left: 190px;
+}
+.text-mgl{
+    margin-left: 60px;
+}
+.card-body{
+    width: 430px;
+    margin: 10%;
+}
+.card-text{
+    width: 400px;
+    margin: 50px 16px;
+}
+.breadcrumb a{
+    text-decoration: none;
+    
+}
+.black{
+    color: #061224;
+}
+.info h1{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 42px;    
+    display: flex;
+    align-items: center;    
+    /* black */    
+    color: #061224;   
+}
+.text{   
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(6, 18, 36, 0.9);
+}
+.mgt{
+    margin-top: 20px;
+}
+.paragraph{
+    width: 418px;
+    height: 154px;
+    margin: 100px 80px;
+}
+.carousel-mgt{
+    margin-top: 50px;
+}
+.bg-green{
+    background: #D8F1F0;
+}
+.search-mgt{
+    margin-top: 50px;
+}
+.contact-number{
+    width: 100%;
+    height: 280px;
+    padding: 30px 0px;
+    text-align: center;
+    align-items: center;
+}
+.contact-number h1{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;  
+    text-align: center;    
+    color: rgba(6, 18, 36, 0.9);
+}
+.contact-number p{
+    display: inline-block;
+    width: 300px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;        
+    color: rgba(6, 18, 36, 0.9);
+}
+.frm-btn{
+    margin-top: 10px !important;
+}
+.form input{    
+    width: 400px;
+    height: 50px;
+    padding: 10px 17px;
+    border-radius: 37px;
+    border-color: #1064E5;
+    margin-bottom: 5px;
+}
+.form button{
+    width: 182px;
+    height: 50px;
+    margin-left: 15px;
+    padding: 10px 17px;
+    border-radius: 41px;
+    border-color: #1064E5;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
+.blur img{
+    filter: invert(0.25);
+}
+.card img{
+    filter: invert(0.25);
+}
+.dropdown-menu[data-bs-popper]{
+    margin-left: 0px;
+}
+
+/* ----logo slider----- */
+.slider img {
+    width: 100px;
+    height: 100px;
+    animation: scroll 60s linear infinite;
+  }
+  
+  .slide-track {
+    width: 100%;
+    display: flex;
+    gap: 8em;
+    overflow: hidden;
+  }
+  
+  .slider {
+    background-color: white;
+    padding: 5em 1em;
+  }
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }
+  .floatRight{float:right;margin-left:20px}
+      
+  .floatRightClear{float:right;clear:right;margin-left:20px
+}
+/* tablet screen */
+@media screen and (min-width:800px) and (max-width: 1000px) {
+    .contact-number h1{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .contact-number p{
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .info h1{
+        font-size: 34px;
+        line-height: 48px;
+    }
+    .text{
+        font-size: 16px;
+        line-height: 147%;
+    }
+    .image-mgl{
+        margin-left: 56px;
+    }
+    .text-mgl{
+        margin: 0px;
+
+    }
+    .card-text {
+        width: 310px;
+        margin: 50px 16px;
+      }
+
+
+}
+  /* mobile screen */
+@media screen and (max-width: 600px) {
+    .slide-track{
+        gap: 5em;;
+    }
+    .paragraph {
+        width: 370px;
+        height: 154px;
+        margin: 10px 0px;
+    }
+    .info h1{
+        font-size: 20px;
+        line-height: 48px;
+    }
+    .text{
+        font-size: 14px;
+        line-height: 128%;
+    }
+    .image-mgl{
+        margin: 10px;
+    }
+    .card-text {
+        width: 310px;
+        margin: 30px 0px;
+      }
+      .text-mgl {
+        margin-left: 0px;
+      }
+    .contact-number h1{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .contact-number p{
+        font-size: 14px;
+        line-height: 147%;
+    }
+    .frm-btn{
+        margin-top: 10px !important;
+    }
+    .form input{    
+        width: 240px;
+        height: 38px;
+        padding: 6px 17px;
+        border-radius: 12px;
+        margin-bottom: 5px;
+    }
+    .form button{
+        width: 172px;
+        height: 38px;
+        margin-left: 10px;
+        padding: 6px 17px;   
+    }
+    
+}
+  

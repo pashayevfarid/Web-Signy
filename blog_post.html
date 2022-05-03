@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article title</title>
+    <!-- add icon link -->
+    <link rel="icon" href="./images/Group 4.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="./css/modal.css" type="text/css" />
+    <link rel="stylesheet" href="./css/header.css" type="text/css" />
+    <link rel="stylesheet" href="./css/footer.css" type="text/css" />
+    <link rel="stylesheet" href="./css/blog_post.css" type="text/css" />
+</head>
+
+<!-- ----------------------------navbar start------------------------------ -->
+<header>
+    <nav class="navbar navbar-expand-lg w-100 navbar-light">
+        <div class="container-fluid header-menu">
+            <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse nav-ml nav-mr" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-menu">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        0 800 750 643
+                    </a>
+                    <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">+380 44 334 56 43</a></li>
+                        <li><a class="dropdown-item" href="#">+380 44 338 86 43</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        ПРО НАС
+                    </a>
+                    <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="./blog.html">Blog</a></li>
+                        <li><a class="dropdown-item" href="./video.html">Video</a></li>
+                        <li><a class="dropdown-item" href="./faq.html">Questions</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link sgn-w" href="./about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <form class="d-flex">
+                        <button type="button" class="btn btn-outline-primary  btn-radius sgn-w">Sign in</button>
+                    </form>
+                </li>
+                <li class="nav-item">
+                    <!-- Vertically centered modal -->
+                    <button type="button" class="btn btn-primary d-flex btn-radius" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Registration</button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header border-bottom-0">
+                                    <h5 class="modal-title" id="exampleModalLabel">Demo version</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Fill out the form and our managers will contact you</p>
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Name*:</label>
+                                            <input type="text" class="form-control" id="recipient-name"
+                                                placeholder="Иван">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="recipient-email" class="col-form-label">Email*:</label>
+                                            <input type="email" class="form-control" id="recipient-email"
+                                                placeholder="ivan@mail.com">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message-tel" class="col-form-label">Phone*:</label>
+                                            <input type="tel" class="form-control" id="message-tel"
+                                                placeholder="+38 000 000 00 00">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer border-top-0">
+                                    <form action="">
+                                        <input type="submit" value="Send" class="btn btn-primary"></input>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Eng
+                    </a>
+                    <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Rus</a></li>
+                        <li><a class="dropdown-item" href="#">Eng</a></li>
+                        <li><a class="dropdown-item" href="#">Aze</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+</header>
+<!-- -------------------------- navbar end --------------------- ------------------------>
+<div class="container">
+    <div class="row">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Signy</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                <li class="breadcrumb-item active" aria-current="page">Article title</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container info">
+    <h1>Article title</h1>
+</div>
+<div class="container mgl">
+    <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="row">
+            <p>28.05.2020</p>
+            <div>
+                <button type="button" class="btn nbg-button mgt-10">About the product</button>
+                <button type="button" class="btn nbg-button mgt-10">Tags</button>
+                <button type="button" class="btn nbg-button mgt-10">Many tags</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container text mgt">
+    <div class="row">
+        <div class="col-sm col-md-12 col-lg-6">
+            <p>Luxury is something everyone deserves from time to time. Such an indulgence can make a vacation a truly
+                rejuvenating experience. One of the best ways to get the luxury of the rich and famous to fit into your
+                budget can be yours through yacht charter companies. These companies specialize in creating custom
+                sailing vacations that redefine travel.
+
+            <p>Planning Your Luxury Trip</p>
+
+            <p>With your budget in mind, it is easy to plan a chartered yacht vacation. Companies often have a fleet of
+                sailing vessels that can accommodate parties of various sizes. You may want to make it a more intimate
+                trip with only close family. There are charters that can be rented for as few as two people. These
+                include either a sailboat or motorboat and can come with or without a crew and captain to sail the ship
+                for you. If you choose not to hire a crew, you will have to show that you are knowledgeable of sailing
+                and can handle the ship competently.</p>
+
+            <p>The next part of planning is to determine your starting and ending ports. This could be a place close to
+                home and sail in one area or start and finish at two different ports. Generally, starting and stopping
+                in the same port will save you money and is usually more convenient. You can also fly to a destination
+                far from home and then sail another exotic sea. There are luxury yacht charter companies that cruise the
+                Caribbean and Mediterranean seas or around Alaska, the Panama Canal, or anyplace you can imagine.</p>
+
+            <p>Determining the type of cruise is another aspect of planning a chartered yachting trip. You can have as
+                little or many crew members as the ship will hold. A captain takes all the worries out of navigating and
+                onboard housekeeping services make it a real vacation that rivals the finest hotel services. You can
+                also choose to have a chef and service crew as part of your vacation package.</p>
+            <div><img src="./images/Mask (1).png" class="img-fluid  w-100" alt=""></div>
+            <p class="mgt">
+                Destinations & Ports of important Charter Companies One of the greatest benefits of choosing a chartered
+                cruise as a vacation is the choice. You will most likely have a rough itinerary and that can be affected
+                by weather. However, you are flexible in deciding how long you want to stay in a particular port and if
+                you want to add or subtract stops along the way.
+            </p>
+        </div>
+        <div class="col-sm col-md-12 col-lg-6">
+            <div><img src="./images/Mask.png" class="img-fluid w-100" alt=""></div>
+            <p class="mgt">Destinations & Ports of important Charter Companies One of the greatest benefits of choosing
+                a chartered
+                cruise as a vacation is the choice. You will most likely have a rough itinerary and that can be affected
+                by weather. However, you are flexible in deciding how long you want to stay in a particular port and if
+                you want to add or subtract stops along the way.</p>
+            <p>Your yacht is your hotel that travels with you. There is only one flight and one hotel to book! Then you
+                take all of your luggage and unpack it just once to enjoy several days of new destinations.</p>
+
+            <p>If you have never experienced cruising before, a chartered experience is a great way to get your feet
+                wet. It is different from cruise lines with thousands of guests because the people on your ship will be
+                your friends and family. The personal touches of a chartered trip will help you develop your love for
+                the sea with all the best benefits of commercial cruises.</p>
+
+            <p>If you like the idea of knowing what it is really like to sail, but don’t want to risk safety, you can
+                charter a sailing cruise that puts you in the role of deck hand. A competent crew will direct you as to
+                your “chores” for keeping the ship in top shape and on course.</p>
+
+            <p>Destinations & Ports of important Charter Companies One of the greatest benefits of choosing a chartered
+                cruise as a vacation is the choice. You will most likely have a rough itinerary and that can be affected
+                by weather. However, you are flexible in deciding how long you want to stay in a particular port and if
+                you want to add or subtract stops along the way.</p>
+
+            <p>If you like the idea of knowing what it is really like to sail, but don’t want to risk safety, you can
+                charter a sailing cruise that puts you in the role of deck hand. A competent crew will direct you as to
+                your “chores” for keeping the ship in top shape and on course.</p>
+
+            <p>Destinations & Ports of important Charter Companies One of the greatest benefits of choosing a chartered
+                cruise as a vacation is the choice. You will most likely have a rough itinerary and that can be affected
+                by weather. However, you are flexible in deciding how long you want to stay in a particular port and if
+                you want to add or subtract stops along the way.</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row text-center mgt">
+        <h3>Share:</h3>
+    </div>
+</div>
+<div class="container" style="display: flex;justify-content: space-around;">
+    <div class="row">
+        <div class="col">
+            <!-- twitter -->
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="#1064E5" width="24" height="24" viewBox="0 0 24 24">
+                <path
+                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+            </svg></a>
+        </div>
+        <div class="col">
+            <!-- linkedin -->
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="#1064E5" width="24" height="24" viewBox="0 0 24 24">
+                <path
+                    d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+            </svg></a>
+        </div>
+        <div class="col">
+            <!-- google -->
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="#1064E5" width="24" height="24" viewBox="0 0 488 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                    d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
+            </svg></a>
+        </div>
+        <div class="col">
+            <!-- Facebook -->
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="#1064E5" width="24" height="24" viewBox="0 0 24 24">
+                <path
+                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+            </svg></a>
+        </div>
+    </div>
+</div>
+<div class="container hover">
+    <div class="row d-flex justify-content-center text-center">
+        <div class="col">
+        <p>The title of the article in
+            two rows</p>
+        </div>
+        <div class="col">
+            <p>The title of the article in two rows</p>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center text-center">
+        <div class="col">
+            <p>Previous article</p>
+        </div>
+        <div class="col">
+            <p>Next article</p>
+        </div>
+    </div>
+</div>
+<div class="contact-number mgt w-100 bg-green">
+    <h1 class="">Subscribe to our news!</h1>
+    <h6>Enter your email address and stay up to date with all updates</h6>
+    <p>
+    <form class="form" action="#">
+        <input type="email" placeholder="" name="mail">
+        <button type="submit" class="frm-btn btn-primary btn-radius">Send</button>
+        
+    </form>
+    </p>
+</div>
+   <!-- --------------------------footer--------------------------------------------------- -->
+   <footer class="text-lg-start text-md-start text-sm-start" style="background-color: #061224;">
+    <!-- Footer main -->
+    <div class="container p-4 pb-0">
+        <section class="">
+            <div class="row">
+        <div class="ft-main-item col-md-6 mb-4 col-lg-4 mb-md-0">
+            <h6><img src="./images/Group 7 (1).png" alt="image" /></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="#"></a></li><br>
+                <li><a href="#"></a></li><br>
+                <li><a href="#"></a></li><br>
+                <li><a href="#"></a></li><br>
+                <li class="text-font"><a href="./index.html">© 2020 Signy</a></li>
+
+            </ul>
+        </div>
+        <div class="ft-main-item col-md-6 col-lg-2 mb-4 mb-md-0">
+            <h6><a href="#" class="text-light">About us</a></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="./about.html" class="text-light">Prices</a></li>
+                <li><a href="#"></a></li><br>
+                <li><a href="#" class="text-light">Entrance</a></li>
+                <li><a href="#" class="text-light">Registration</a></li><br>
+                <li class="text-font"><a href="#">Offer agreement</a></li>
+            </ul>
+        </div>
+        <div class="ft-main-item col-md-6 col-lg-4 mb-4 mb-md-0">
+            <h6 class="d-block"><a href="#!" class="text-light">infosmartsign@smarttender.biz</a></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="#" class="text-light">Facebook</a></li>
+                <li><a href="#"></li><br>
+                <li><a href="./blog.html" class="text-light">Blog</a></li>
+                <li><a href="./contact.html" class="text-light">Contacts</a></li><br>
+                <li class="text-font"><a href="#">Security of service</a></li>
+            </ul>
+        </div>
+        <div class="ft-main-item col-md-6 col-lg-2 mb-4 mb-md-0">
+            <h6><a href="#" class="text-light">Mykola Bazhana Ave., 14 A</a></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="#" class="text-light">Kyiv, 02072</a></li>
+                <li><a href="#" class="text-light">0 800 750643</a></li>
+                <li><a href="#" class="text-light">+380 44 334 56 43</a></li>
+                <li><a href="#" class="text-light">+380 44 338 86 43</a></li>
+            </ul>
+        </div>
+        </div>
+    </section>
+    </div>
+</footer>
+<!-- end footer  -->
+
+
+<script src="./js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

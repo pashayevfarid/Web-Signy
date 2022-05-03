@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTS</title>
+    <!-- add icon link -->
+    <link rel="icon" href="./images/Group 4.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/modal.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/contact.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/header.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/footer.css" type="text/css"/>
+</head>
+
+<body>
+    <!-- ----------------------------navbar start------------------------------ -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid header-menu">
+                <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse nav-mr nav-ml" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-menu border-2">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            0 800 750 643
+                        </a>
+                        <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">+380 44 334 56 43</a></li>
+                            <li><a class="dropdown-item" href="#">+380 44 338 86 43</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Information
+                        </a>
+                        <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="./video.html">Video</a></li>
+                            <li><a class="dropdown-item" href="./faq.html">Questions</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link sgn-w" href="./about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="">
+                            <button type="button" class="btn btn-outline-primary btn-radius sgn-w">Sign in</button>
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Vertically centered modal -->
+                        <button type="button" class="btn btn-primary btn-radius" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Registration</button>
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header border-bottom-0">
+                                        <h5 class="modal-title" id="exampleModalLabel">Demo version</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Fill out the form and our managers will contact you</p>
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Name*:</label>
+                                                <input type="text" class="form-control" id="recipient-name"
+                                                    placeholder="Иван">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="recipient-email" class="col-form-label">Email*:</label>
+                                                <input type="email" class="form-control" id="recipient-email"
+                                                    placeholder="ivan@mail.com">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="message-tel" class="col-form-label">Phone*:</label>
+                                                <input type="tel" class="form-control" id="message-tel"
+                                                    placeholder="+38 000 000 00 00">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer border-top-0">
+                                        <form action="">
+                                            <input type="submit" value="Send" class="btn btn-primary"></input>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Eng
+                        </a>
+                        <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Rus</a></li>
+                            <li><a class="dropdown-item" href="#">Eng</a></li>
+                            <li><a class="dropdown-item" href="#">Aze</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <!-- -------------------------- navbar end --------------------- ------------------------>
+
+    <div class="container-fluid">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mgl blog">
+                <li class="breadcrumb-item"><a href="./index.html">Signy</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="container mgl info d-flex">
+        <h1>Our contacts</h1>
+    </div>
+    <div class="container mgl info">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-lg-6">
+                <p class="text">We are always happy to answer your questions and develop effective cooperation on all
+                    questions,
+                    <br>associated with electronic document management.
+                </p>
+                <pre><span><img src="./images/phone.png" alt="phone icon"></span>  0 800 750 643</pre>
+                <pre>    +3 044 334 56 43</pre>
+                <pre>    +3 044 338 86 43</pre>
+                <pre><span><img src="./images/mail.png" alt="mail icon"></span> infosmartsign@smarttender.biz</pre>
+                <pre><span><img src="./images/location.png" alt="location icon"></span>  Bazhana Ave., 14 A Kyiv, 02072</pre>
+            </div>
+            <div class="col-md-12 d-flex col-sm-12 col-lg-6">
+                <iframe width="620" height="250" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=%D0%BF%D1%80-%D1%82%20%D0%91%D0%B0%D0%B6%D0%B0%D0%BD%D0%B0,%2014%20%D0%90%20%D0%9A%D0%B8%D0%B5%D0%B2,%2002072&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="container mgl form-header">
+        <h1>...or write to us:</h1>
+    </div>
+
+    <!-- --------------------------------- form--------------------------------- -->
+    <form class="mgl form2">
+        <div class="mb-3">
+            <label for="Name1" class="form-label">Name*:</label>
+            <input type="text" class="form-control" placeholder="Иван" id="Name1">
+        </div>
+        <div class="mb-3">
+            <label for="Email1" class="form-label">Email*:</label>
+            <input type="email" class="form-control" placeholder="ivan@mail.com" id="Email1"
+                aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="Phone1" class="form-label">Phone*:</label>
+            <input type="text" class="form-control" placeholder="+38 000 000 00 00" id="Phone1">
+        </div>
+        <div class="mb-3">
+            <label for="Text1" class="form-label">Message:</label><br>
+            <textarea class="d-flex" placeholder=" введите тут" cols="50" rows="5"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-radius">Send</button>
+    </form>
+
+   <!-- --------------------------footer--------------------------------------------------- -->
+   <footer class="text-lg-start text-md-start text-sm-start" style="background-color: #061224;">
+    <!-- Footer main -->
+    <div class="container p-4 pb-0">
+        <section class="">
+            <div class="row">
+        <div class="ft-main-item col-md-6 mb-4 col-lg-4 mb-md-0">
+            <h6><img src="./images/Group 7 (1).png" alt="image" /></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="#"></a></li><br>
+                <li><a href="#"></a></li><br>
+                <li><a href="#"></a></li><br>
+                <li><a href="#"></a></li><br>
+                <li class="text-font"><a href="./index.html">© 2020 Signy</a></li>
+
+            </ul>
+        </div>
+        <div class="ft-main-item col-md-6 col-lg-2 mb-4 mb-md-0">
+            <h6><a href="#" class="text-light">About us</a></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="./about.html" class="text-light">Prices</a></li>
+                <li><a href="#"></a></li><br>
+                <li><a href="#" class="text-light">Entrance</a></li>
+                <li><a href="#" class="text-light">Registration</a></li><br>
+                <li class="text-font"><a href="#">Offer agreement</a></li>
+            </ul>
+        </div>
+        <div class="ft-main-item col-md-6 col-lg-4 mb-4 mb-md-0">
+            <h6 class="d-block"><a href="#!" class="text-light">infosmartsign@smarttender.biz</a></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="#" class="text-light">Facebook</a></li>
+                <li><a href="#"></li><br>
+                <li><a href="./blog.html" class="text-light">Blog</a></li>
+                <li><a href="./contact.html" class="text-light">Contacts</a></li><br>
+                <li class="text-font"><a href="#">Security of service</a></li>
+            </ul>
+        </div>
+        <div class="ft-main-item col-md-6 col-lg-2 mb-4 mb-md-0">
+            <h6><a href="#" class="text-light">Mykola Bazhana Ave., 14 A</a></h6>
+            <ul class="list-unstyled mb-0">
+                <li><a href="#" class="text-light">Kyiv, 02072</a></li>
+                <li><a href="#" class="text-light">0 800 750643</a></li>
+                <li><a href="#" class="text-light">+380 44 334 56 43</a></li>
+                <li><a href="#" class="text-light">+380 44 338 86 43</a></li>
+            </ul>
+        </div>
+        </div>
+    </section>
+    </div>
+</footer>
+<!-- end footer  -->
+
+
+
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
